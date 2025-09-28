@@ -1,2 +1,8 @@
-# 2025_Sem1_GP1_31
-Baseer | بصير is our capstone 🎓
+Authors:
+- Jood Alkhrashi (444203007)
+- Dalal Alyousef (444203019)
+- Aljazi Alhassan (444201096)
+- Najla Almazyad (444200948)
+
+Supervisor:
+- Dr. Rana Alkadhi
