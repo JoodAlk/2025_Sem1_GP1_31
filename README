@@ -1,0 +1,41 @@
+# Baseer | بصير  
+Smart Waste Monitoring and Collection System  
+
+## Introduction  
+**Baseer (بصير)** is a smart waste monitoring and collection system designed to optimize urban waste management in Riyadh.  
+The device uses IoT-enabled ultrasonic sensors installed in trash bins to monitor fill levels in real time.  
+Data is transmitted to a cloud-based platform, where collection truck drivers and administrators can access insights through a mobile application.  
+
+- **Goal:** Increase efficiency of waste collection by reducing unnecessary trips, lowering operational costs, and ensuring cleaner streets.  
+- **Benefits:** Faster collection, less overflow, reduced odors and pests, and improved decision-making using data.  
+
+## Technology  
+- **Programming:**  
+  - Arduino IDE (ESP32 microcontroller)  
+  - Flutter (mobile application for drivers/admins)  
+- **Hardware:**  
+  - ESP32 microcontroller with Wi-Fi/Bluetooth  
+  - JSN-SR04T ultrasonic sensor (for bin fill-level)  
+  - Breadboard, jumper wires, USB power module for prototyping  
+- **Cloud & Database:**  
+  - Firebase Realtime Database for data synchronization  
+- **API:**  
+  - Google Maps API for optimized routing  
+
+## Launching Instructions  
+1. **Hardware Setup:**  
+   - Connect ESP32 microcontroller to JSN-SR04T ultrasonic sensor via breadboard and jumper wires.  
+   - Upload ESP32 program using Arduino IDE.  
+
+2. **Cloud Integration:**  
+   - Configure Firebase Realtime Database.  
+   - Ensure ESP32 sends sensor readings to Firebase.  
+
+3. **Mobile App:**  
+   - Clone the Flutter app code.  
+   - Run `flutter pub get` to install dependencies.  
+   - Launch app on Android/iOS with `flutter run`.  
+
+4. **Usage:**  
+   - **Drivers:** View bin fill levels and follow optimized routes.  
+   - **Admins:** Monitor bin status city-wide and track collection activity.  
