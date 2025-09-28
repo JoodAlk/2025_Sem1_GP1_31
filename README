@@ -1,7 +1,7 @@
 # Baseer | بصير  
 Smart Waste Monitoring and Collection System  
 
-## Introduction  
+##Introduction  
 **Baseer (بصير)** is a smart waste monitoring and collection system designed to optimize urban waste management in Riyadh.  
 The device uses IoT-enabled ultrasonic sensors installed in trash bins to monitor fill levels in real time.  
 Data is transmitted to a cloud-based platform, where collection truck drivers and administrators can access insights through a mobile application.  
